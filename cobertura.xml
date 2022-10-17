@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<coverage branch-rate="NaN" branches-covered="NaN" branches-valid="NaN" complexity="NaN" line-rate="0.8" lines-covered="4" lines-valid="5" timestamp="1666033763.8689" version="">
+  <sources>
+    <source>$(ANCHOR_DIR)\codegen\lib\myAdd\</source>
+  </sources>
+  <packages>
+    <package branch-rate="NaN" complexity="NaN" line-rate="0.8" name="">
+      <classes>
+        <class branch-rate="NaN" complexity="NaN" filename="C:\Users\hkhan\OneDrive - MathWorks\Hussain\R2023a\SIL_coverage_b2b\demo\artifacts\codegen\lib\myAdd\myAdd.c" line-rate="0.8" name="myAdd">
+          <methods/>
+          <lines>
+            <line hits="1" number="21"/>
+            <line hits="1" number="22"/>
+            <line hits="1" number="23"/>
+            <line hits="0" number="24"/>
+            <line hits="1" number="26"/>
+          </lines>
+        </class>
+        <class branch-rate="NaN" complexity="NaN" filename="C:\Users\hkhan\OneDrive - MathWorks\Hussain\R2023a\SIL_coverage_b2b\demo\artifacts\codegen\lib\myAdd\myAdd_initialize.c" line-rate="NaN" name="myAdd_initialize">
+          <methods/>
+          <lines/>
+        </class>
+        <class branch-rate="NaN" complexity="NaN" filename="C:\Users\hkhan\OneDrive - MathWorks\Hussain\R2023a\SIL_coverage_b2b\demo\artifacts\codegen\lib\myAdd\myAdd_terminate.c" line-rate="NaN" name="myAdd_terminate">
+          <methods/>
+          <lines/>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
