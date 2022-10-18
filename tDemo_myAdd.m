@@ -6,8 +6,8 @@ classdef tDemo_myAdd < matlabtest.coder.TestCase
             %
             % Note: The TestCase sets the VerificationMode to "SIL" by default
             % in case of lib/dll targets
-            buildResults = testCase.build('myAdd.m', Inputs={10,5}, ...
-                Configuration='lib');
+            mkdir("artifacts");
+            buildResults = testCase.build('myAdd.m', Inputs={10,5}, Configuration='lib',Folder="artifacts");
 
             % Execute the SIL executable with specified inputs
             executionResults = testCase.execute(buildResults);
